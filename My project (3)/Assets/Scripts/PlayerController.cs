@@ -57,7 +57,7 @@ public class PlayerController : MonoBehaviour {
         // below checks to see that that object has the tag "coin". Remember that
         // the tags for GameObjects are assigned in the top left area of the
         // inspector when you select the obect.
-        if (other.CompareTag("coin")) {
+        if (other.CompareTag("pizza")) {
             Destroy(other.gameObject);
             score += 1;
         } else if (other.CompareTag("danger")) {
