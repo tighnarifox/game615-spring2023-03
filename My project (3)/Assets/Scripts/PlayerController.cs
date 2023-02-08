@@ -6,14 +6,16 @@ public class PlayerController : MonoBehaviour {
     // These two lines create two variables. In general, define variables in
     // this region of your Unity scripts so that you can use them through out
     // the entire script.
-    float moveSpeed = 5f;
-    float rotateSpeed = 75f;
+    float moveSpeed = 10f;
+    float rotateSpeed = 120f;
 
+    public bool lose;
     public float score; //score is held for the UI to display
 
     // Start is called before the first frame update
     void Start() {
         score = 0;
+        lose = false;
     }
 
     // Update is called once per frame
@@ -61,7 +63,11 @@ public class PlayerController : MonoBehaviour {
             Destroy(other.gameObject);
             score += 1;
         } else if (other.CompareTag("danger")) {
-            //put code for when colliding with the bad object here
+            Destroy(other.gameObject);
+            score -= 1;
+            gameObject.GetComponent<Rigidbody>().AddForce(transform.up * 500);
+            gameObject.GetComponent<Rigidbody>().AddTorque(transform.forward * 500);
+            lose = true;
         }
     }
 }
