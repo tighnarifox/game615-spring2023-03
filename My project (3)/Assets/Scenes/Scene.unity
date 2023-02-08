@@ -973,6 +973,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4627060338623332737, guid: a58604b61ab264b6da7a84839029f037, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3575675715422269644, guid: a58604b61ab264b6da7a84839029f037, type: 3}
       propertyPath: m_Name
       value: SpikyBall (1)
@@ -1775,6 +1779,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4627060338623332737, guid: a58604b61ab264b6da7a84839029f037, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3575675715422269644, guid: a58604b61ab264b6da7a84839029f037, type: 3}
       propertyPath: m_Name
       value: SpikyBall
@@ -3317,6 +3325,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4627060338623332737, guid: a58604b61ab264b6da7a84839029f037, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3575675715422269644, guid: a58604b61ab264b6da7a84839029f037, type: 3}
       propertyPath: m_Name
       value: SpikyBall (2)
