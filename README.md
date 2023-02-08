@@ -6,3 +6,4 @@ forest environment was made using assets from TriForge Assets and venti characte
 (314)
 "Naruto Sage" (https://skfb.ly/ouTUr) by 3D Resource is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 "Sasuke Uchiha" (https://skfb.ly/opAwA) by chayaruart is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+trees from stylized environment by ink phantom https://assetstore.unity.com/publishers/16307
